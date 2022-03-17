@@ -11,13 +11,13 @@
 /*.cm-s-tomorrow-night-eighties.CodeMirror { background: #000000; color: #CCCCCC; }*/
 
 /*OJ*/
-.CodeMirror {
+ .CodeMirror {
   background: rgba(0, 0, 0, 0);
   transition: background-color 0.3s ease;
-  /* color: #cccccc; */
+   color: #cccccc; 
   font-size: 18px;
   height: 100%;
-}
+} 
 span span.CodeMirror-selectedtext {
   background: #666666;
 }
@@ -49,22 +49,22 @@ span span.CodeMirror-selectedtext {
 }
 
 /* OJ*/
-.cm-s-tomorrow-night-eighties .CodeMirror-line span {
+/* .cm-s-tomorrow-night-eighties .CodeMirror-line span {
   background-color: rgba(0, 0, 0, 0.6);
   transition: background-color 0.3s ease;
   color: #cccccc;
-}
+} */
 
 
 
 /*OJ*/
-.cm-s-tomorrow-night-eighties.CodeMirror {
+/* .cm-s-tomorrow-night-eighties.CodeMirror {
   background: rgba(0, 0, 0, 0);
   transition: background-color 0.3s ease;
   color: #cccccc;
   font-size: 18px;
   height: 100%;
-}
+} */
 .cm-s-tomorrow-night-eighties span span.CodeMirror-selectedtext {
   background: #666666;
 }
@@ -96,11 +96,11 @@ span span.CodeMirror-selectedtext {
 }
 
 /* OJ*/
-.cm-s-tomorrow-night-eighties .CodeMirror-line span {
+ /* .cm-s-tomorrow-night-eighties .CodeMirror-line span {
   background-color: rgba(0, 0, 0, 0.6);
   transition: background-color 0.3s ease;
   color: #cccccc;
-}
+}  */
 /* fix weird alternating background colors */
 .cm-s-tomorrow-night-eighties .CodeMirror-line span span {
   background-color: rgba(0, 0, 0, 0);
