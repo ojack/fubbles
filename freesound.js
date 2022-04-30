@@ -139,6 +139,7 @@
     var SoundCollection = function(jsonObject){
         var collection = Collection(jsonObject);
         collection.getSound = function (idx){
+            console.log('collection', collection)
             return new SoundObject(collection.results[idx]);
         };
         return collection;
